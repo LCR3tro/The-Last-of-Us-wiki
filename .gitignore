@@ -1,0 +1,36 @@
+# 🌐 
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# 💻 
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# 🌍
+*.cache
+chrome-debug/
+
+# 🔧 
+dist/
+build/
+*.min.js
+*.min.css
+
+# 📱
+*.apk
+*.ipa
+
+# 🔒 
+.env
+*.key
+secrets.json
+
+# 💾 
+.DS_Store?
+ehthumbs.db
+Thumbs.db

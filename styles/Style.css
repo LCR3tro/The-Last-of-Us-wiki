@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --padrao-textual:whitesmoke;
+    --padrao-fundo:darkgreen;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {  
+     background-image: url('ellie.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed; 
+     background-color: var(--padrao-fundo);
+     position:relative;
+     
+}
+.titulo{
+    position: absolute;
+    height: 100vh;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-family: "Lato",sans-serif; 
+    font-weight: 700;
+    font-style: normal;
+    color:var(--padrao-textual);
+    padding:2rem;
+    top: 0;        
+    left: 0;       
+    right: 0;     
+    width: 100%; 
+    z-index: 5;
+    background: rgba(0,0,0,0.5);
+    
+
+}
+
+.sessoes{
+    position:absolute;
+    height:20vh;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Lato",sans-serif; 
+    font-weight: 700;
+    font-style: normal;
+    padding: 20%;
+    bottom:0;
+    left: 0;       
+    right: 0;  
+    width: 100%; 
+    padding:2rem;
+    z-index: 6;
+}
+.sessao-link{
+    color:var(--padrao-textual);
+}
