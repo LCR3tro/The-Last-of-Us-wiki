@@ -35,7 +35,7 @@ body {
 
 body::before {
     content: '';
-    background-image: url('ellieejoel.jpg');
+    background-image: url('joelfoto.jpg');
     background-size: cover;
     position: fixed;
     top: 0;
@@ -53,8 +53,8 @@ body::after {
     height: 100vh;
     background: linear-gradient(180deg, 
         rgba(0,0,0,0.3) 0%,      
-        rgba(0,0,0,0.75) 30%,    
-        rgba(0,0,0,0.95) 100%); 
+        rgba(0,0,0,0.75) 40%,    
+        rgba(0,0,0,0.95) 200%); 
     z-index: 2;
 }
 
@@ -74,7 +74,7 @@ body::after {
     z-index: 3;
 }
 
-.historia{
+.personagem-hero{
     padding: 35px 30px;
     color: var(--padrao-textual);
     display:flex;
@@ -85,7 +85,7 @@ body::after {
     top:60%;
     z-index: 3;
 }
-.historia section {
+.personagem-hero section {
     margin-bottom: 40px;        
     padding: 35px;
     border-radius: 15px;
@@ -103,11 +103,11 @@ body::after {
 }
 
 @media (max-width: 768px) {
-    .historia {
+    .personagem-hero {
         padding: 25px 15px;
     }
     
-    .historia > section {
+    .personagem-hero > section {
         margin-bottom: 45px;
         margin-top: 30px;
         padding: 25px 20px;

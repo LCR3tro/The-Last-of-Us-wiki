@@ -35,7 +35,7 @@ body {
 
 body::before {
     content: '';
-    background-image: url('ellieejoel.jpg');
+    background-image: url('Part2.jpeg');
     background-size: cover;
     position: fixed;
     top: 0;
@@ -53,8 +53,8 @@ body::after {
     height: 100vh;
     background: linear-gradient(180deg, 
         rgba(0,0,0,0.3) 0%,      
-        rgba(0,0,0,0.75) 30%,    
-        rgba(0,0,0,0.95) 100%); 
+        rgba(0,0,0,0.75) 40%,    
+        rgba(0,0,0,0.95) 200%); 
     z-index: 2;
 }
 

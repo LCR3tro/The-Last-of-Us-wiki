@@ -18,7 +18,7 @@ html, body {
 }
 
 body {  
-     background-image: url('ellie.png');
+     background-image: url('ellieejoel2.jpg');
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
@@ -26,8 +26,9 @@ body {
      background-color: var(--padrao-fundo);
      position:relative;
      
+     
 }
-.titulo{
+.menu-principal{
     position: absolute;
     height: 100vh;
     display: flex;  
@@ -50,7 +51,7 @@ body {
 
 }
 
-.sessoes{
+.menu-escolhas{
     position:absolute;
     height:20vh;
     display:flex;
@@ -67,10 +68,18 @@ body {
     width: 100%; 
     padding:2rem;
     z-index: 6;
+  
 }
-.sessao-link{
+.card-menu{
+  color:var(--padrao-textual);
+  font-family: "Lato",sans-serif; 
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn-voltar{
     color:var(--padrao-textual);
-     font-family: "Lato",sans-serif; 
+  font-family: "Lato",sans-serif; 
     font-weight: 700;
     font-style: normal;
 }

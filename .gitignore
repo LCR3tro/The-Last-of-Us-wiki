@@ -1,36 +1,32 @@
-# 🌐 
+# 🌐 Arquivos do Sistema
 .DS_Store
 Thumbs.db
+.DS_Store?
+ehthumbs.db
 *.log
 *.tmp
 
-# 💻 
+# 💻 IDEs e Editores
 .vscode/
 .idea/
 *.swp
 *.swo
 
-
-# 🌍
+# 🌍 Cache e Debug
 *.cache
 chrome-debug/
 
-# 🔧 
+# 🔧 Builds e Produção
 dist/
 build/
 *.min.js
 *.min.css
 
-# 📱
+# 📱 Mobile Builds
 *.apk
 *.ipa
 
-# 🔒 
+# 🔒 Arquivos Sensíveis
 .env
 *.key
-secrets.json
-
-# 💾 
-.DS_Store?
-ehthumbs.db
-Thumbs.db
+secrets.json 
