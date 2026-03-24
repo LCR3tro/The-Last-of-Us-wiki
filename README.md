@@ -21,7 +21,7 @@ Enciclopédia **COMPLETA** com **TLOU Part I & Part II** - História detalhada, 
 > **"Todo mundo que eu conheci morreu. Não vou deixar isso acontecer com você."**  
 > *— Joel Miller*
 
-**100% GRATUITO** - Fork, clone, use! 
+**100% GRATUITO** - Fork, clone, use!   
 **Informações** - Todas as informações de persoagens foram retiradas a partir de uma IA!
 
 ---
