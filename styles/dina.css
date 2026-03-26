@@ -29,8 +29,10 @@ body {
      font-weight: 400;
      line-height: 1.7;
      height: 100%;
+     padding: 35px 30px;
     
 }
+
 .stat-item{
      padding: 35px 30px;
     font-family: 'Lato', sans-serif;
@@ -38,10 +40,9 @@ body {
      line-height: 1.7;
 }
 
-
 body::before {
     content: '';
-    background-image: url('joelfoto.jpg');
+    background-image: url('dina.jpg');
     background-size: cover;
     position: fixed;
     top: 0;

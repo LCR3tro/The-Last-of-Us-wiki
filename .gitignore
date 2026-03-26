@@ -29,8 +29,4 @@ build/
 # 🔒 Arquivos Sensíveis
 .env
 *.key
-<<<<<<< HEAD
 secrets.json 
-=======
-secrets.json 
->>>>>>> 20875218e7dfd6535e92dbddd3cf3d0b13091b8f
