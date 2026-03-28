@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --padrao-textual:whitesmoke;
+    --padrao-fundo:black;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {  
+    
+     background-color: var(--padrao-fundo);
+     background-size: 100% 100vh;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: scroll; 
+     position:relative;
+     min-height: 100vh;
+     font-family: 'Lato', sans-serif;
+     font-weight: 400;
+     line-height: 1.7;
+     height: 100%;
+     padding: 35px 30px;
+    
+}
+
+.stat-item{
+     padding: 35px 30px;
+    font-family: 'Lato', sans-serif;
+     font-weight: 400;
+     line-height: 1.7;
+}
+
+body::before {
+    content: '';
+    background-image: url('bill.jpg');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:1;
+}
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, 
+        rgba(0,0,0,0.3) 0%,      
+        rgba(0,0,0,0.75) 60%,    
+        rgba(0,0,0,0.95) 400%); 
+    z-index: 2;
+}
+
+.titulo{
+    position: absolute;
+    top:20%;
+    left:50%;
+    right:50%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    color: var(--padrao-textual); 
+    width: auto; 
+    z-index: 3;
+}
+
+.personagem-hero{
+    padding: 35px 30px;
+    color: var(--padrao-textual);
+    display:flex;
+    width: auto; 
+    position: absolute;
+    flex-direction: column;
+    align-content: stretch;
+    top:60%;
+    z-index: 3;
+}
+.personagem-hero section {
+    margin-bottom: 40px;        
+    padding: 35px;
+    border-radius: 15px;
+    opacity: 0;
+    animation: slideUp 0.6s ease forwards;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.btn-voltar{
+    color:var(--padrao-textual);
+
+}
+
+@media (max-width: 768px) {
+    .personagem-hero {
+        padding: 25px 15px;
+    }
+    
+    .personagem-hero > section {
+        margin-bottom: 45px;
+        margin-top: 30px;
+        padding: 25px 20px;
+    }
+    
+    .navegacao {
+        margin-top: 45px;
+        padding-top: 30px;
+    }
+}
