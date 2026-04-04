@@ -36,4 +36,4 @@ Enciclopédia **COMPLETA** com **TLOU Part I & Part II** - História detalhada, 
 
 ### **🧟‍♂️ Infectados - Guia Completo**  
 
-**Link para o website: (https://lcr3tro.github.io/The-Last-of-Us-wiki/)**
+**Link para o website: (https://lcretr0.github.io/The-Last-of-Us-wiki/)**
